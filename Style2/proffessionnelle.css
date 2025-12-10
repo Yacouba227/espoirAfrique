@@ -1,0 +1,101 @@
+/* Style global */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+  background-image: url(/image/proffesionnel.jpg);
+}
+
+/* Section principale */
+.centre-pro-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px 20px;
+}
+
+.centre-pro-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Catégories */
+.categorie {
+  margin-bottom: 40px;
+}
+
+.categorie h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #0056b3;
+  border-left: 5px solid #0056b3;
+  padding-left: 10px;
+}
+
+/* Grille de filières */
+.filieres {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Cartes */
+.filiere-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.filiere-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.filiere-card span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.filiere-card:hover {
+  transform: translateY(-8px);
+  background: #eaf4ff;
+}
+/* Tablettes */
+@media screen and (max-width: 768px) {
+    .filieres {
+        gap: 15px;
+    }
+    .filiere-card {
+        width: 45%;
+        padding: 15px;
+    }
+    .categorie h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Téléphones */
+@media screen and (max-width: 480px) {
+    .filieres {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .filiere-card {
+        width: 90%;
+        padding: 10px;
+    }
+    .categorie h3 {
+        font-size: 1.1rem;
+    }
+    .centre-pro-section h2 {
+        font-size: 1.5rem;
+    }
+}

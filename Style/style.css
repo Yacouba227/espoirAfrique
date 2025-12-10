@@ -1,0 +1,31 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+/* Stop animation quand souris survole */
+.group:hover .animate-scroll {
+  animation-play-state: paused;
+}
+/* poutr l'image du president*/
+.image-container {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement si le conteneur a une hauteur */
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 40%;   /* l’image ne dépasse pas 80% de l’écran */
+  height: auto;     /* garde les proportions */
+  border-radius: 10px; /* optionnel : arrondir les coins */
+}

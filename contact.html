@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Complexe Scolaire Espoirs d’Afrique – Bamako, Mali</title>
+  <meta name="description" content="Contactez le Complexe Scolaire Espoirs d’Afrique à Bamako, Mali. 📍 Kabala, route de l’Université Yambo Ouologuem. Téléphone : +223 76849029 / +223 76429521.">
+  
+  <!-- SEO -->
+  <link rel="canonical" href="https://www.espoirsdafrique.edu.ml/contact.html" />
+  <link rel="alternate" href="https://www.espoirsdafrique.edu.ml/contact.html" hreflang="fr" />
+  <link rel="alternate" href="https://www.espoirsdafrique.edu.ml/contactA.html" hreflang="en" />
+  
+  <!-- Open Graph (Facebook / WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact – Complexe Scolaire Espoirs d’Afrique – Bamako, Mali">
+  <meta property="og:description" content="📍 Kabala, route de l’Université Yambo Ouologuem. Contactez-nous pour toute information.">
+  <meta property="og:url" content="https://www.espoirsdafrique.edu.ml/contact.html">
+  <meta property="og:site_name" content="Complexe Scolaire Espoirs d’Afrique">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact – Complexe Scolaire Espoirs d’Afrique">
+  <meta name="twitter:description" content="Contactez notre établissement à Bamako, Mali. 📞 +223 76849029 / +223 76429521.">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2a2a2a;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      margin: 40px 0 20px 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Complexe Scolaire Espoirs d’Afrique 📍 Kabala, Route de l’Université Yambo Ouologuem (400m du terminus)</h1>
+  <h2>Contactez-nous pour plus d’informations !</h2>
+
+  <h2>📞 +223 76849029 / +223 76429521<br>
+  <a href="mailto:contact@espoirsdafrique.edu.ml">&#x2709; contact@espoirsdafrique.edu.ml</a></h2>
+
+  <h2>Notre localisation</h2>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    var map = L.map('map').setView([12.518103, -8.045463], 15);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    var marker = L.marker([12.484561, -8.049191]).addTo(map);
+    marker.bindPopup("<b>Complexe Scolaire Espoirs d’Afrique</b><br>Bienvenue à notre établissement.").openPopup();
+  </script>
+
+  <footer>
+    &copy; 2025 Complexe Scolaire Espoirs d’Afrique – Bamako, Mali. Tous droits réservés.
+  </footer>
+
+  <!-- Données structurées JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "Complexe Scolaire Espoirs d’Afrique",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kabala, Route de l’Université Yambo Ouologuem",
+      "addressLocality": "Bamako",
+      "addressCountry": "ML"
+    },
+    "telephone": "+22376849029",
+    "email": "contact@espoirsdafrique.edu.ml",
+    "url": "https://www.espoirsdafrique.edu.ml"
+  }
+  </script>
+</body>
+</html>

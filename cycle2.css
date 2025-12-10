@@ -1,0 +1,106 @@
+/* Style global 
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}*/
+
+/* Section principale 
+.centre-pro-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}*/
+
+/*.centre-pro-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+ Catégories */
+ body{
+  background: url('/image/phto2cycle.jpg') no-repeat center center;
+  background-size: 100vh;
+  margin: 0;
+padding: 20px;
+ }
+.categorie {
+  margin-bottom: 40px;
+}
+
+.categorie h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #0056b3;
+  border-left: 5px solid #0056b3;
+  padding-left: 10px;
+}
+
+/* Grille de filières */
+.filieres {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Cartes */
+.filiere-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.filiere-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.filiere-card span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.filiere-card:hover {
+  transform: translateY(-8px);
+  background: #eaf4ff;
+}
+
+
+
+/* Spécifique aux Jardins d'enfants */
+.jardins-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #28a745; /* Vert doux */
+}
+
+.jardins-section .categorie h3 {
+  color: #28a745;
+  border-left: 5px solid #28a745;
+}
+
+.jardins-section .filiere-card i {
+  color: #28a745;
+}
+
+.jardins-section .filiere-card:hover {
+  background: #e9f9ef;
+}
+.jardins-section {
+  background-size: cover;
+  padding: 50px 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  color: #333;
+}
+/* l'adaptation aux téléphone, PC et tablette*/

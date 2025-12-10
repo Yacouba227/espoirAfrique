@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="canonical" href="https://www.espoirsdafrique.edu.ml/taux.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taux de réussite au Bac</title>
+  <link rel="stylesheet" href="/taux.css">
+</head>
+<body>
+
+<section class="bac-section" id="taux-bac">
+  <h2 style="color: cadetblue;">Résultats au Bac</h2>
+  <hr style="color: aquamarine;">
+
+  <div class="annees-container">
+
+    <!-- 2022-2023 -->
+    <div class="annee" onclick="ouvrirDoc('/docs/2023.pdf')">
+      <h3>2022-2023</h3>
+      <div class="fiche">
+        <div class="mini-preview">
+          <img src="/Images/logo.jpg" alt="Preview 2022-2023">
+        </div>
+        <p><strong>Candidats :</strong> Nombres</p>
+        <p><strong>Admis :</strong> Nombres</p>
+        <p><strong>Taux :</strong> %</p>
+        <button class="btn-doc">Voir le document</button>
+      </div>
+    </div>
+    <!-- 2023-2024 -->
+    <div class="annee" onclick="ouvrirDoc('/docs/2024.pdf')">
+      <h3>2023-2024</h3>
+      <div class="fiche">
+        <div class="mini-preview">
+          <img src="/Images/logo.jpg" alt="Preview 2023-2024">
+        </div>
+        <p><strong>Candidats :</strong> 160</p>
+        <p><strong>Admis :</strong> 130</p>
+        <p><strong>Taux :</strong> 81%</p>
+        <button class="btn-doc">Voir le document</button>
+      </div>
+    </div>
+
+    <!-- 2024-2025 -->
+    <div class="annee" onclick="ouvrirDoc('/docs/2025.pdf')">
+      <h3>2024-2025</h3>
+      <div class="fiche">
+        <div class="mini-preview">
+          <img src="/Images/logo.jpg" alt="Preview 2024-2025">
+        </div>
+        <p><strong>Candidats :</strong> 170</p>
+        <p><strong>Admis :</strong> 140</p>
+        <p><strong>Taux :</strong> 82%</p>
+        <button class="btn-doc">Voir le document</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Modal pour le document -->
+<div id="modalDoc" class="modal">
+  <div class="modal-content animate-modal">
+    <span class="close" onclick="fermerModal()">&times;</span>
+    <iframe id="iframeDoc" src="" width="100%" height="500px"></iframe>
+    <a id="downloadDoc" href="" download><button class="btn-download">Télécharger</button></a>
+  </div>
+</div>
+
+<script src="/charts.js"></script>
+</body>
+</html>

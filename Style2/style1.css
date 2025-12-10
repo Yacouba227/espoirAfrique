@@ -1,0 +1,100 @@
+/*pour l'onglet  presentaion*/
+/* Section avec image de fond */
+.presentation-section {
+  position: relative;
+  height: 100px;
+  background: url('photo-ecole.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Couche sombre pour lisibilité */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* assombrir l'image */
+}
+
+/* Texte au centre */
+.text-container {
+  position: relative;
+  z-index: 1;
+}
+
+#typed-text {
+  font-size: 2.5rem;
+  max-width: 800px;
+  line-height: 1.5;
+  color: #ffcc00; /* Doré professionnel */
+}
+
+/* Curseur clignotant */
+#typed-text::after {
+  content: "|";
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+body{
+  background-color: #f1f1f1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.ajuster{
+  position: inherit;
+max-width: 100px;
+height: 400px;
+padding: 20px 40px;
+   margin-left: 20px;
+   margin-right: 20px;
+
+}
+footer{
+  text-align: center;
+    /*padding: 10px;*/
+}
+/* Pour tablettes */
+@media screen and (max-width: 768px) {
+    .presentation-section {
+        height: 50vh;
+    }
+    .presentation-section .text-container h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Pour téléphones */
+@media screen and (max-width: 480px) {
+    .presentation-section {
+        height: 40vh;
+    }
+    .presentation-section .text-container h1 {
+        font-size: 1.4rem;
+    }
+    section.anim-texte p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+

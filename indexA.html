@@ -1,0 +1,306 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="canonical" href="https://www.espoirsdafrique.edu.ml/indexA.html" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espoirs d’Afrique</title>
+ <!-- Tailwind -->
+<link rel="icon" type="image/png" href="/Images/logo.jpg">
+  <!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
+    <!-- Logo -->
+    <a href="#" class="flex items-center space-x-2">
+      <img src="/Images/logo.jpg" alt="Logo" class="h-10 w-auto">
+      <span class="text-xl font-bold text-gray-800">Espoirs d’Afrique</span>
+    </a>
+
+    <!-- Langues (toujours visible) -->
+    <div class="flex items-center gap-2">
+      <a href="/index.html" class="px-3 py-1 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700">FR</a>
+      <a href="/indexA.html" class="px-3 py-1 rounded-full border border-gray-200 text-sm font-medium hover:shadow-sm">EN</a>
+    </div>
+
+    <!-- Menu Desktop -->
+    <!-- Desktop Menu -->
+<nav class="hidden md:flex space-x-4">
+  <a href="/presentationA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Presentation
+  </a>
+
+  <a href="/jardinA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Kindergarten
+  </a>
+
+  <a href="/cycle1A.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Junior High
+  </a>
+
+  <a href="/cycle2A.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-pink-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Senior High
+  </a>
+
+  <a href="/proffessionelleA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Vocational Training
+  </a>
+
+  <a href="/collegeA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-600 text-gray-900 font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    High School
+  </a>
+
+  <a href="/tauxA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-red-500 to-red-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Exam Results
+  </a>
+
+  <a href="/contactA.html" 
+     class="px-4 py-2 rounded-xl bg-gradient-to-r from-teal-500 to-teal-600 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition transform duration-200">
+    Contact
+  </a>
+</nav>
+
+<!-- Mobile Menu Button -->
+<button id="menu-btn" class="md:hidden p-2 text-gray-700 focus:outline-none">
+  <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" 
+       viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" 
+          d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+
+<!-- Mobile Menu (right side, half screen) -->
+<div id="mobile-menu" 
+     class="hidden fixed top-0 right-0 w-1/2 h-full bg-gradient-to-b from-blue-900 to-blue-600 shadow-lg z-50 transition-transform duration-300 ease-in-out transform translate-x-full">
+  
+  <!-- Menu Header with X button -->
+  <div class="flex justify-between items-center p-4 border-b border-blue-400">
+    <h2 class="text-lg font-bold text-white">Menu</h2>
+    <button id="close-menu" class="text-white text-2xl font-bold">&times;</button>
+  </div>
+
+  <!-- Links List -->
+  <ul class="flex flex-col space-y-3 p-6 text-white font-medium">
+    <li><a href="/presentationA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Presentation</a></li>
+    <li><a href="/jardinA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Kindergarten</a></li>
+    <li><a href="/cycle1A.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Junior High</a></li>
+    <li><a href="/cycle2A.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Senior High</a></li>
+    <li><a href="/proffessionnelleA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Vocational Training</a></li>
+    <li><a href="/collegeA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">High School</a></li>
+    <li><a href="/tauxA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Exam Results</a></li>
+    <li><a href="/contactA.html" class="block py-2 px-3 rounded-lg hover:bg-blue-700 transition">Contact</a></li>
+  </ul>
+</div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="pt-28 text-center bg-gradient-to-r from-blue-700 to-blue-500 text-white py-16">
+  <h2 class="text-3xl md:text-4xl font-bold">Welcome to COMPLEXE SCOLAIRE ESPOIRS D’AFRIQUE</h2>
+  <p class="mt-4 italic">"Shaping tomorrow’s leaders with excellence and commitment"</p>
+</section>
+
+<!-- Slider -->
+<section class="relative w-full h-[400px] sm:h-[450px] md:h-[550px] lg:h-[600px] mt-16 overflow-hidden bg-gray-900">
+  <!-- Slider container -->
+  <div class="absolute inset-0">
+    <div class="w-full h-full relative">
+      <!-- Images with contain -->
+      <div class="absolute inset-0 bg-contain bg-no-repeat bg-center animate-fade bg-[url('/Images/IMG-20250809-WA0005.jpg')]"></div>
+      <div class="absolute inset-0 bg-contain bg-no-repeat bg-center animate-fade bg-[url('/Images/IMG-20250809-WA0007.jpg')]"></div>
+      <div class="absolute inset-0 bg-contain bg-no-repeat bg-center animate-fade bg-[url('/Images/IMG-20250809-WA0008.jpg')]"></div>
+      <div class="absolute inset-0 bg-contain bg-no-repeat bg-center animate-fade bg-[url('/Images/IMG-20250809-WA0009.jpg')]"></div>
+    </div>
+  </div>
+
+  <!-- Modern overlay (gradient) -->
+  <div class="absolute inset-0 bg-gradient-to-r from-indigo-900/60 via-purple-900/50 to-blue-900/60"></div>
+
+  <!-- Text content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+    <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold text-white leading-tight drop-shadow-lg">
+      COMPLEXE SCOLAIRE ESPOIRS D’AFRIQUE
+    </h1>
+    <p class="mt-3 text-sm sm:text-base md:text-xl text-gray-200 max-w-2xl">
+      A quality education to build your children’s future
+    </p>
+  </div>
+</section>
+
+<!-- Styles animation -->
+<style>
+  @keyframes fade {
+    0%, 20% { opacity: 1; }
+    25%, 95% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .animate-fade {
+    animation: fade 20s infinite; /* plus lent qu’avant */
+  }
+  .animate-fade:nth-child(1) { animation-delay: 0s; }
+  .animate-fade:nth-child(2) { animation-delay: 6s; }
+  .animate-fade:nth-child(3) { animation-delay: 12s; }
+  .animate-fade:nth-child(4) { animation-delay: 18s; }
+  .animate-fade:nth-child(5) { animation-delay: 24s; }
+</style>
+<!-- ===== FOUNDER SECTION (EN) ===== -->
+<section id="founder" class="py-12 bg-white">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">Message from the Founder</h2>
+    <div class="image-container">
+      <img src="/Images/IMG-20250809-WA0002pre.jpg" alt="Picture of the Founder">
+    </div>
+  </div>
+</section>
+<p class="text-justify leading-relaxed text-gray-600" style="color: blue;">
+  I am Dr. Moussa Ousmane MINTA, founder and promoter of this institution, 
+  born from a deep passion for education and an unwavering commitment 
+  to the future of our children.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  A journey marked by perseverance, my academic and professional path reflects a constant quest 
+  for excellence and dedication to teaching. Educated in the Malian school system from primary 
+  to university, I later pursued higher studies in the United States, where I earned a 
+  Master of Education (M.Ed.) at the prestigious NorthCentral University in Arizona.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  The challenges were numerous. To finance my studies, I worked tirelessly, alternating between 
+  deliveries and restaurant jobs. These trials strengthened my determination to transform 
+  education in Africa, particularly in Mali.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  Upon my return to Mali, I completed my academic journey with a 
+  <strong>Doctorate in Applied Linguistics (Bilingual Education)</strong> 
+  at the University Pedagogy Institute (IPU, formerly ISFRA), further consolidating 
+  my expertise in preschool, primary, secondary, and higher education systems.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  <strong>A Committed Vision for Education</strong>: my return to Mali reflects a firm will to 
+  contribute to the improvement of the national education system and, by extension, 
+  to the training of the continent’s future leaders. Drawing on my international 
+  experience and pedagogical skills, I strive to offer high-quality education focused 
+  on innovation and equity.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  One of my top priorities is access to education for disadvantaged groups. 
+  That is why our school complex is committed to offering free education 
+  to many children from underprivileged families; because I firmly believe 
+  that education is a right, not a privilege.
+</p>
+
+<p class="text-justify leading-relaxed text-gray-600"style="color: blue;">
+  <strong>Our Mission</strong>: Through this institution, we cultivate academic excellence, 
+  civic values, and bilingualism, in order to prepare a generation capable of meeting 
+  both local and global challenges. Together, let us build the future!
+</p>
+
+<section>
+  <span>
+    <h4>With gratitude, <br> Dr. Moussa Ousmane MINTA <br> Founder & Promoter </h4>
+  </span>
+</section>
+ <!-- ===== SECTION ACTIVITÉS ===== -->
+<section id="activites" class="bg-gray-50 py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+      Nos Activités Récentes
+    </h2>
+
+    <!-- Grille 2 colonnes -->
+    <div class="grid md:grid-cols-2 gap-10">
+      
+      <!-- Bloc 1 : Préparation de la rentrée -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+        <img src="/rentrée.jpeg" alt="Préparation de la rentrée" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-blue-700 mb-3">
+            Préparation de la Rentrée Scolaire
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            À l’École Espoirs d’Afrique, la préparation de la rentrée est un moment de partage,
+            de planification et d’unité entre le personnel enseignant et administratif.
+            Ces moments sont essentiels pour garantir une année scolaire réussie,
+            axée sur la qualité de l’enseignement et le bien-être des élèves.
+          </p>
+          <!-- Mini galerie -->
+          <div class="grid grid-cols-3 gap-2">
+            <img src="/rentrée.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Préparation rentrée 2">
+            <img src="/rentrée1.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Préparation rentrée 3">
+            <img src="/rentrée2.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Préparation rentrée 4">
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloc 2 : Visite de collaboration -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+        <img src="/visite3.jpeg" alt="Visite de collaboration" class="w-full h-64 object-contain">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-green-700 mb-3">
+            Visite de Collaboration et Partenariat
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Une délégation du Complexe Scolaire Espoirs d’Afrique a effectué une visite
+            amicale auprès de deux écoles partenaires : 
+            le <strong>Complexe Scolaire Mamby Keïta</strong> et le 
+            <strong>Complexe Scolaire Nouveau Regard de N’Golobougou</strong>.
+            Ce moment d’échanges et de fraternité a permis de renforcer les liens éducatifs
+            et de promouvoir la collaboration entre institutions.
+          </p>
+          <!-- Mini galerie -->
+          <div class="grid grid-cols-3 gap-2">
+            <img src="/viste1.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Visite 2">
+            <img src="/visite4.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Visite 3">
+            <img src="/visite2.jpeg" class="w-full h-28 object-cover rounded-lg" alt="Visite 4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== EVENTS ===== -->
+<section class="bg-gray-100 py-12">
+  <h2 class="text-2xl font-bold text-center mb-8">Events & Announcements</h2>
+  <div class="flex flex-wrap justify-center gap-6">
+    <div class="bg-white shadow-lg p-6 rounded-xl w-72 hover:scale-105 transition">
+      <h3 class="text-red-600 font-semibold mb-3">News</h3>
+      <p>New updates coming soon.</p>
+    </div>
+    <div class="bg-white shadow-lg p-6 rounded-xl w-72 hover:scale-105 transition">
+      <h3 class="text-blue-600 font-semibold mb-3">Results</h3>
+      <p>Our students succeed with excellence in BAC and DEF exams.</p>
+    </div>
+    <div class="bg-white shadow-lg p-6 rounded-xl w-72 hover:scale-105 transition">
+      <h3 class="text-green-600 font-semibold mb-3">Upcoming Events</h3>
+      <p>Conferences, field trips, and educational activities ahead.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-blue-900 text-white py-12 text-center">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">Contact</h2>
+    <p class="text-gray-600">Email: contact@espoirsdafrique.edu.ml</p>
+    <p class="text-gray-600">Phone: +22376849029</p>
+  </div>
+</section>
+ <script src="/scriptA.js"></script>
+</body>
+</html>
